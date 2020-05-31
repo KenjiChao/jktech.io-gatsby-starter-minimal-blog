@@ -4,6 +4,7 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
+    siteTitle: `矽谷輕鬆談 Just Kidding Tech`,
     siteTitleAlt: `Minimal Blog - Gatsby Theme`,
   },
   plugins: [
