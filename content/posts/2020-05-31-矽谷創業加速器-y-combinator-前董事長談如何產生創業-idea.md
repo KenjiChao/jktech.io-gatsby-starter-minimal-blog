@@ -3,7 +3,7 @@ title: 矽谷創業加速器 Y Combinator 前董事長談如何產生創業 Idea
 date: 2020-05-31T07:38:06.257Z
 description: 矽谷創業加速器 Y Combinator 前董事長談如何產生創業 Idea
 ---
-### 原文作者是 Sam Altman，他是知名的矽谷創業加速器 — Y Combinator 的前董事長，現任 OpenAI 的執行長。本文他分享了創辦人如何產生創業 Idea 的看法，認為要有適當的環境加上適合的人，才能孕育出好的 Idea。
+原文作者是 Sam Altman，他是知名的矽谷創業加速器 — Y Combinator 的前董事長，現任 OpenAI 的執行長。本文他分享了創辦人如何產生創業 Idea 的看法，認為要有適當的環境加上適合的人，才能孕育出好的 Idea。
 
 如果你認為創業的想法不重要，或是苦於產生好的想法，這篇肯定會對你有幫助。原文為 [Idea Generation](https://blog.samaltman.com/idea-generation)。
 
