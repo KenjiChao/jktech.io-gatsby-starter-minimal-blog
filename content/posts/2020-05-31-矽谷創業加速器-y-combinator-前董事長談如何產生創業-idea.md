@@ -1,6 +1,6 @@
 ---
 title: 矽谷創業加速器 Y Combinator 前董事長談如何產生創業 Idea
-date: 2020-05-31T07:38:06.257Z
+date: 2020-05-30T07:38:00.000Z
 description: 矽谷創業加速器 Y Combinator 前董事長談如何產生創業 Idea
 tags:
   - 矽谷
