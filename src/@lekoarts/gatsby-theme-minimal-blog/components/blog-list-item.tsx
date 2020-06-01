@@ -33,7 +33,7 @@ const BlogListItem = ({ post, showTags = true }: BlogListItemProps) => (
       {post.excerpt}
     </TLink>
     <p sx={{ color: `secondary`, mt: 1, a: { color: `primary` }, fontSize: [1, 1, 2] }}>
-      {`閱讀時間 `} {post.timeToRead * 2} {` 分鐘  `}
+      {`閱讀時間 `} {post.timeToRead * 3 - 1} {` 分鐘  `}
       <br></br>
       <time>{post.date}</time>
       {post.tags && showTags && (

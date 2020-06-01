@@ -7,8 +7,11 @@ module.exports = {
     siteTitle: `矽谷輕鬆談 Just Kidding Tech`,
     siteTitleAlt: `矽谷輕鬆談 Just Kidding Tech`,
     siteHeadline: `矽谷輕鬆談 Just Kidding Tech`,
+    siteUrl: `https://jktech.io`,
     siteDescription: `矽谷輕鬆談 Just Kidding Tech`,
+    siteLanguage: `zh-TW`,
     siteImage: `/banner.jpg`,
+    author: `@kenjichao`,
   },
   plugins: [
     {
@@ -16,6 +19,7 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         formatString: "MMM DD, Y",
+        mdx: false,
         navigation: [
           {
             title: `文章列表`,
@@ -24,14 +28,6 @@ module.exports = {
           {
             title: `標籤`,
             slug: `/tags`,
-          },
-          {
-            title: `Podcast`,
-            slug: `/podcast`,
-          },
-          {
-            title: `關於我們`,
-            slug: `/about`,
           },
         ],
         externalLinks: [
@@ -42,6 +38,10 @@ module.exports = {
           {
             name: `Instagram`,
             url: `https://www.instagram.com/jktech.io/`,
+          },
+          {
+            name: `Podcast`,
+            url: `https://anchor.fm/jktech`,
           },
         ],
       },
@@ -80,5 +80,34 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
     `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-sharp`,
+    `gatsby-remark-images`,
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.mdx`, `.md`],
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 960,
+              linkImagesToOriginal: false,
+              showCaptions: true,
+              markdownCaptions: false,
+              quality: 90,
+              backgroundColor: "none",
+              disableBgImage: true,
+            },
+          },
+        ],
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `content/img`,
+        path: `content/img`,
+      },
+    },
   ],
 }
