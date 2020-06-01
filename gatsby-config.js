@@ -26,6 +26,10 @@ module.exports = {
             slug: `/tags`,
           },
           {
+            title: `Podcast`,
+            slug: `/podcast`,
+          },
+          {
             title: `關於我們`,
             slug: `/about`,
           },
