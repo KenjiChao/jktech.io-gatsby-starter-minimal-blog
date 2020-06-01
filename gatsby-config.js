@@ -5,31 +5,39 @@ require(`dotenv`).config({
 module.exports = {
   siteMetadata: {
     siteTitle: `矽谷輕鬆談 Just Kidding Tech`,
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitleAlt: `矽谷輕鬆談 Just Kidding Tech`,
+    siteHeadline: `矽谷輕鬆談 Just Kidding Tech`,
+    siteDescription: `矽谷輕鬆談 Just Kidding Tech`,
+    siteImage: `/banner.jpg`,
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
       options: {
+        formatString: "MMM DD, Y",
         navigation: [
           {
-            title: `Blog`,
+            title: `文章列表`,
             slug: `/blog`,
           },
           {
-            title: `About`,
+            title: `標籤`,
+            slug: `/tags`,
+          },
+          {
+            title: `關於我們`,
             slug: `/about`,
           },
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `Facebook`,
+            url: `https://www.facebook.com/jktech.io/`,
           },
           {
             name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            url: `https://www.instagram.com/jktech.io/`,
           },
         ],
       },
