@@ -4,14 +4,18 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
+    title: `矽谷輕鬆談 Just Kidding Tech`,
     siteTitle: `矽谷輕鬆談 Just Kidding Tech`,
     siteTitleAlt: `矽谷輕鬆談 Just Kidding Tech`,
     siteHeadline: `矽谷輕鬆談 Just Kidding Tech`,
     siteUrl: `https://jktech.io`,
-    siteDescription: `矽谷輕鬆談 Just Kidding Tech`,
+    description: `矽谷科技業的第一手經驗分享，跟大家聊聊如何在瞬息萬變的科技業持續學習與成長！`,
+    siteDescription: `矽谷科技業的第一手經驗分享，跟大家聊聊如何在瞬息萬變的科技業持續學習與成長！`,
     siteLanguage: `zh-TW`,
-    siteImage: `/blog_hero.jpg`,
+    siteImage: `/website_banner.jpg`,
     author: `@kenjichao`,
+    url: `https://blog.jktech.io`,
+    image: `/website_banner.jpg`,
   },
   plugins: [
     {
