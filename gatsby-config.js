@@ -8,7 +8,7 @@ module.exports = {
     siteTitle: `矽谷輕鬆談 Just Kidding Tech`,
     siteTitleAlt: `矽谷輕鬆談 Just Kidding Tech`,
     siteHeadline: `矽谷輕鬆談 Just Kidding Tech`,
-    siteUrl: `https://jktech.io`,
+    siteUrl: `https://blog.jktech.io`,
     description: `矽谷科技業的第一手經驗分享，跟大家聊聊如何在瞬息萬變的科技業持續學習與成長！`,
     siteDescription: `矽谷科技業的第一手經驗分享，跟大家聊聊如何在瞬息萬變的科技業持續學習與成長！`,
     siteLanguage: `zh-TW`,
