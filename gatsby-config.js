@@ -99,7 +99,7 @@ module.exports = {
               linkImagesToOriginal: false,
               showCaptions: true,
               markdownCaptions: false,
-              quality: 90,
+              quality: 100,
               backgroundColor: "none",
               disableBgImage: true,
             },
