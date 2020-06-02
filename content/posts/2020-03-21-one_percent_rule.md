@@ -4,7 +4,6 @@ date: 2020-03-21T02:02:00.000Z
 description: 1%法則 — 為什麼聽眾都不跟我們互動？你的粉絲不是你的粉絲
 slug: "/one-percent-rule"
 tags:
-  - 八二法則
   - Podcast
 ---
 ![Photo by Anthony DELANOIX on Unsplash](../img/fan.jpg)

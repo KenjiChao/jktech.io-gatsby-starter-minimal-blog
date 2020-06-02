@@ -23,7 +23,8 @@ const Tags = ({ list }: PostsProps) => {
       <SEO title="Tags" />
       <Heading variant="styles.h3">標籤</Heading>
       <Box mt={[4, 5]}>
-        {list.map((listItem) => (
+        {list.sort((l1, l2) => l2.totalCount - l1.totalCount)
+          .map((listItem) => (
           <Flex key={listItem.fieldValue} mb={[1, 1, 2]} sx={{ alignItems: `center` }}>
             <TLink
               as={Link}

@@ -20,10 +20,11 @@ module.exports = {
       options: {
         formatString: "MMM DD, Y",
         mdx: false,
+        blogPath: "/posts",
         navigation: [
           {
             title: `文章列表`,
-            slug: `/blog`,
+            slug: `/posts`,
           },
           {
             title: `標籤`,
@@ -49,7 +50,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
+        trackingId: "UA-47125018-4",
       },
     },
     `gatsby-plugin-sitemap`,
