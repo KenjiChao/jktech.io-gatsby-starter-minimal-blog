@@ -10,7 +10,7 @@ module.exports = {
     siteUrl: `https://jktech.io`,
     siteDescription: `矽谷輕鬆談 Just Kidding Tech`,
     siteLanguage: `zh-TW`,
-    siteImage: `/banner.jpg`,
+    siteImage: `/blog_hero.jpg`,
     author: `@kenjichao`,
   },
   plugins: [
