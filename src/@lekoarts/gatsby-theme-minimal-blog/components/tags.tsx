@@ -16,12 +16,17 @@ type PostsProps = {
 }
 
 const Tags = ({ list }: PostsProps) => {
-  const { tagsPath, basePath } = useMinimalBlogConfig()
+  const { tagsPath, blogPath, basePath } = useMinimalBlogConfig()
 
   return (
     <Layout>
       <SEO title="Tags" />
-      <Heading variant="styles.h3">標籤</Heading>
+      <Flex sx={{ alignItems: `center`, justifyContent: `space-between`, flexFlow: `wrap` }}>
+        <Heading variant="styles.h3">標籤</Heading>
+        <TLink as={Link} sx={{ variant: `links.secondary`, color: `primary`}} to={replaceSlashes(`/${basePath}/${blogPath}`)}>
+          查看所有文章
+        </TLink>
+      </Flex>
       <Box mt={[4, 5]}>
         {list.sort((l1, l2) => l2.totalCount - l1.totalCount)
           .map((listItem) => (

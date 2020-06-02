@@ -36,7 +36,7 @@ const Tag = ({ posts, pageContext }: TagProps) => {
     <Layout>
       <SEO title={`Tag: ${pageContext.name}`} />
       <Flex sx={{ alignItems: `center`, justifyContent: `space-between`, flexFlow: `wrap` }}>
-        <Heading variant="styles.h2">{pageContext.name}</Heading>
+        <Heading variant="styles.h3">{pageContext.name}</Heading>
         <TLink as={Link} sx={{ variant: `links.secondary`, color: `primary`}} to={replaceSlashes(`/${basePath}/${tagsPath}`)}>
           查看所有標籤
         </TLink>
