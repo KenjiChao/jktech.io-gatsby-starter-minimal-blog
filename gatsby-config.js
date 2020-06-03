@@ -114,5 +114,6 @@ module.exports = {
         path: `content/img`,
       },
     },
+    `gatsby-plugin-theme-ui`,
   ],
 }

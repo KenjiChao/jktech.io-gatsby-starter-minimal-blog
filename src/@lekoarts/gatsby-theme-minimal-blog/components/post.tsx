@@ -54,7 +54,7 @@ const Post = ({ data: { post } }: PostProps) => (
         </React.Fragment>
       )}
     </p>
-    <section sx={{ my: 5, ".gatsby-resp-image-wrapper": { my: [4, 4, 5], boxShadow: shadow.join(`, `) } }}>
+    <section sx={{ my: [4, 5], ".gatsby-resp-image-wrapper": { my: [4, 4, 5], boxShadow: shadow.join(`, `) } }}>
       <MDXRenderer>{post.body}</MDXRenderer>
     </section>
   </Layout>

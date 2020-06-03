@@ -9,6 +9,6 @@ figure.gatsby-resp-image-figure {
 figcaption.gatsby-resp-image-figcaption {
     text-align: center;
     font-size: smaller;
-    color: #7f8ea3;
-    margin-bottom: 3rem;
+    color: #a0aec0;
+    margin-bottom: 0rem !important;
 }
