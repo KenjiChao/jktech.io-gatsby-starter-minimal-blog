@@ -5,6 +5,7 @@ description: 1%法則 — 為什麼聽眾都不跟我們互動？你的粉絲不
 slug: "/one-percent-rule"
 tags:
   - Podcast
+banner: ../img/fan.jpg
 ---
 ![Photo by Anthony DELANOIX on Unsplash](../img/fan.jpg)
 
